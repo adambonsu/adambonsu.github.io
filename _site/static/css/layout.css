@@ -49,6 +49,11 @@ header > h1 {
     margin-bottom: 20px;
 }
 
+header h2 {
+    line-height: 100%;
+    font-size: 100%;
+}
+
 .container > header p, .container > header address {
     margin-bottom: 20px;
 }
@@ -84,7 +89,6 @@ article > header > span + span {
 }
 
 article > header > span + span::before {
-    content: '@';
     margin-right: 4px;
 }
 
